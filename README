@@ -1,0 +1,20 @@
+Use the main.rs as the server
+You can run the following programs to manipulate the data inside main.rs:
+
+1. imenik_vpis <name> <surname> <phone number>
+creates a new contact with the input data
+
+2. imenik_izbris <phone number>
+deletes the contact with the matching phone number
+
+3. imenik_izpis <phone number>
+prints the contact with the matching phone number
+
+4. imenik_iskanje
+Uses a string to search the phone book for contacts with a matching name or surname
+and prints all such matches. Then it waits for the next sting with which to search.
+Exit using Ctrl+D.
+
+5. imenik_zapri
+closes the socket connection but first it waits for all other requests to be completed
+ 
